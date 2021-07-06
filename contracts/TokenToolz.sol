@@ -1,4 +1,4 @@
-pragma solidity ^0.6.6;
+pragma solidity ^0.8.0;
 
 // ----------------------------------------------------------------------------
 //   _______    _                _______          _
@@ -38,7 +38,7 @@ interface ERC20 {
 
 contract TokenToolz {
     function getTokenInfo(ERC20 token, address tokenOwner, address spender) public view returns (uint _decimals, uint _totalSupply, uint _balance, uint _allowance, string memory _symbol, string memory _name) {
-        if (token == ERC20(0)) {
+        if (address(token) == address(0)) {
             return (18, 0, tokenOwner.balance, 0, "ETH", "Ether");
         } else {
             try token.symbol() returns (string memory s) {
