@@ -1,15 +1,11 @@
-/**
- *Submitted for verification at Etherscan.io on 2021-12-06
-*/
-
 pragma solidity ^0.8.0;
 
 // ----------------------------------------------------------------------------
-// ERC-721 Helper v0.9.3.test
+// ERC-721 Helper v0.9.3-alpha
 //
 // https://github.com/bokkypoobah/TokenToolz
 //
-// Deployed to Rinkeby 0xc874167575c8e42162aF052fB4326A96F6D3a524
+// Deployed to Mainnet & Rinkeby 0xc874167575c8e42162aF052fB4326A96F6D3a524
 //
 // SPDX-License-Identifier: MIT
 //
